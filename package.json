@@ -34,6 +34,13 @@
   },
   "jest": {
     "preset": "react-native",
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.mock.ts"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}"
+    ],
+    "coverageDirectory": "./coverage/",
     "moduleFileExtensions": [
       "ts",
       "tsx",

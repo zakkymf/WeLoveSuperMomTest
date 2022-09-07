@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Screen render homescreen correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "justifyContent": "center",
+      "padding": 16,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": 8,
+        "elevation": 3,
+        "justifyContent": "center",
+        "padding": 10,
+      }
+    }
+  >
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Insert Word"
+      style={
+        Object {
+          "borderBottomWidth": 0.5,
+        }
+      }
+      value="hello world"
+    />
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E8157E",
+          "borderRadius": 8,
+          "height": 48,
+          "justifyContent": "center",
+          "marginVertical": 10,
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#ffffff",
+            "fontSize": 12,
+            "fontWeight": "700",
+          }
+        }
+      >
+        Export to CSV
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "textAlign": "center",
+        }
+      }
+    >
+      Result
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 12,
+          "marginVertical": 5,
+        }
+      }
+    >
+      hello world
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 12,
+          "marginVertical": 5,
+        }
+      }
+    >
+      HELLO WORLD
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 12,
+          "marginVertical": 5,
+        }
+      }
+    >
+      hElLo wOrLd
+    </Text>
+  </View>
+</View>
+`;
