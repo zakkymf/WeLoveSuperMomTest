@@ -58,7 +58,7 @@ export default class Home {
       });
   }
 
-  async onExportPress(word: string) {
+  async checkPermission(word: string) {
     try {
       await PermissionsAndroid.request(
         PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,

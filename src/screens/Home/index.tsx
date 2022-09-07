@@ -21,7 +21,7 @@ const Home = () => {
         />
         <Button
           label="Export to CSV"
-          onPress={() => homeStore.onExportPress(word)}
+          onPress={() => homeStore.checkPermission(word)}
         />
 
         <Text style={styles.title}>Result</Text>
